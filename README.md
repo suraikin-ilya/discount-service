@@ -1,5 +1,5 @@
 # discount-service
 
-#django админка
+# django админка
 
-admin 12345
+# admin 12345
