@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #333;
+
+    &__container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    &__actions {
+        display: flex;
+        
+        a {
+            margin-left: 25px;
+        }
+    }
+}

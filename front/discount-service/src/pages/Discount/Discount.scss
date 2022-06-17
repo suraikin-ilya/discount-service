@@ -1,0 +1,93 @@
+.Discount {
+    &__userinfo {
+        margin-bottom: 50px;
+    }
+}
+
+.userinfo {
+    display: flex;
+
+    &__name {
+        margin-right: 30px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    &__email {
+        font-size: 30px;
+        font-weight: 500;
+        color: #AFB3C0;
+    }
+}
+
+.discount-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &__image {
+        width: 35%;
+
+        img {
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__overview {
+        width: 60%;
+    }
+
+    &__title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    &__subtitle {
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    &__sale {
+        font-size: 50px;
+        font-weight: 500;
+        color: #FFA800;
+        margin-right: 30px;
+    }
+
+    &__name {
+        font-size: 46px;
+    }
+
+    &__shops {
+        margin-bottom: 30px;
+    }
+
+    &__products {
+        margin-bottom: 30px;
+    }
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+
+    &__item {
+        margin-right: 20px;
+    }
+}
+
+.tag {
+    background-color: #E5FDFF;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.code {
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
