@@ -1,1 +1,2 @@
-# django админ admin 12345
+# django admin
+ admin 12345
